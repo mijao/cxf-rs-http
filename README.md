@@ -7,7 +7,7 @@ Este proyecto contiene un servicio web SOAP llamado OrderProcess. Las siguientes
 ### Instalación
 Clonar el proyecto en un directorio local
 ```
-git clone https://github.com/josearivas/cxf-ws-http.git
+git clone https://github.com/josearivas/cxf-rs-http.git
 ```
 
 ### Configuración
