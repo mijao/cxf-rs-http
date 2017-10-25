@@ -1,4 +1,4 @@
-# Servicio SOAP con Apache CXF y Unit Test con JUnit
+# Servicio REST con Apache CXF y Unit Test con JUnit
 Implementación de servicio web SOAP con el framework Apache CXF y pruebas unitarias con JUnit
 
 ## Instalación, configuración, despliegue y pruebas
