@@ -13,8 +13,12 @@
     <context:component-scan base-package="demo.book" />     
     
     <import resource="classpath:META-INF/cxf/cxf.xml" />
+    
+	<bean id="bookDAO" class="demo.book.dao.BookDAO" />  
 	
-    <bean id="bookService" class="demo.book.service.impl.BookServiceImpl" />        
+    <bean id="bookService" class="demo.book.service.impl.BookServiceImpl">
+    	<property name="books"  ref="bookDAO" />
+    </bean>        
 	
     <jaxrs:server id="exampleCxfServer" address="/">
         <jaxrs:serviceBeans>

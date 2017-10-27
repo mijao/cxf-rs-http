@@ -6,7 +6,10 @@ public class Book {
 	private String title;
 	private String author;
 	private String year;
-	private String edition;	
+	private String edition;		
+	
+	public Book() {		
+	}
 	
 	public Book(int id, String title, String author, String year, String edition) {
 		super();
