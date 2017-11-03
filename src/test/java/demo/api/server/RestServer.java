@@ -25,7 +25,7 @@ public class RestServer {
 	    server = factoryBean.create();
 	
 	    System.out.println("Server ready...");
-	    //Thread.sleep(60 * 1000);
+	    //Thread.sleep(5 * 1000);
 	    //System.out.println("Server exiting");
 	    //server.destroy();
 	    //System.exit(0);		
