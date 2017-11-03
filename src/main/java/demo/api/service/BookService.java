@@ -1,5 +1,6 @@
-package demo.book.service;
+package demo.api.service;
 
+import java.util.Collection;
 import java.util.List;
 
 import javax.ws.rs.Consumes;
@@ -10,7 +11,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
-import demo.book.model.Book;
+import demo.api.model.Book;
 
 @Path("/books")
 @Produces("application/json")
@@ -21,7 +22,7 @@ public interface BookService {
     public Book getBook(@PathParam("id") int id);
     
     @GET    
-    public List<Book> getAllBooks();
+    public Collection<Book> getAllBooks();
     
     @POST    
     @Consumes("application/json")

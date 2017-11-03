@@ -1,4 +1,4 @@
-package demo.book.model;
+package demo.api.model;
 
 public class Book {
 
