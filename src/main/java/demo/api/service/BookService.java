@@ -13,7 +13,7 @@ import javax.ws.rs.core.Response;
 
 import demo.api.model.Book;
 
-@Path("/books")
+@Path("/libros")
 @Produces("application/json")
 public interface BookService {
 	
